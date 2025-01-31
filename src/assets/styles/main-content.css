@@ -2,7 +2,7 @@
 .main-container{
     max-width: 80vw;
     height: 100vh;
-    width: 75%;
+    width: 100%;
     margin-left: 320px;
     margin-right: 100px;
     position: fixed;
@@ -255,7 +255,7 @@
     padding: 20px 20px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    width: 200px;
   }
   
   .artist-card:hover {
@@ -324,7 +324,7 @@
   
   .artist-card:hover .play .fa-play {
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-100px);
   }
   
   .play .fa-play:hover {
